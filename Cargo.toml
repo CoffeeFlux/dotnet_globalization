@@ -10,5 +10,6 @@ skip_optional_dependencies = true
 crate-type = ["staticlib"]
 
 [dependencies]
-icu = "0.1.0"
-icu_provider_fs = "0.1"
+icu = { path = "../icu4x/components/icu" }
+icu_provider = { path = "../icu4x/components/provider" }
+# icu_provider_fs = { path = "../icu4x/components/provider_fs" }
